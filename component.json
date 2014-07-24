@@ -1,0 +1,16 @@
+{
+  "name": "class-helper",
+  "repo": "Jody-Geers/class-helper",
+  "description": "css class helper.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
