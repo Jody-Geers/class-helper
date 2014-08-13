@@ -42,7 +42,7 @@ function classHelper( args ) {
   */
   this.setClassNull = function ( ele, cls ) {
     
-	if ( this.getClass( ele, cls ) ) {
+    if ( this.getClass( ele, cls ) ) {
 	
       var reg = new RegExp( '(\\s|^)' + cls + '(\\s|$)' );
 	  
