@@ -10,10 +10,9 @@
 
 ## API
 
-<body>
-    <!-- example ui -->
-    <span class="class-el" id="test-el">Hello World, Here I AM...</span>
-</body>
+<!-- example ui -->
+<span class="class-el" id="test-el">Hello World, Here I AM...</span>
+
 <script>
 
     // the meat
