@@ -10,33 +10,33 @@
 
 ## API
 
-<!-- example ui -->
-<span class="class-el" id="test-el">Hello World, Here I AM...</span>
-
-<script>
-
-    // the meat
-    var classHelper = require( 'class-helper' );
-    
-    // el testo
-    var testEl = document.getElementById( 'test-el' );
-    
-    	// TEST - has it got the class?
-    	if ( classHelper.getClass( testEl, 'class-el' ) ) testEl.innerText = 'el testo has class class-el';
-
-    // remove class
-    classHelper.removeClass( testEl, 'class-el' );
-    
-    	// TEST - has it got the class?
-    	if ( !classHelper.getClass( testEl, 'class-el' ) ) testEl.innerText = 'el testo DOES NOT has class class-el';
-
-    // add class
-    classHelper.setClass( testEl, 'class-el-new' );
-    
-    	// TEST - has it got the class?
-    	if ( classHelper.getClass( testEl, 'class-el-new' ) ) testEl.innerText = 'el testo has class class-el-new';
-
-</script>
+  <!-- example ui -->
+  <span class="class-el" id="test-el">Hello World, Here I AM...</span>
+  
+  <script>
+  
+      // the meat
+      var classHelper = require( 'class-helper' );
+      
+      // el testo
+      var testEl = document.getElementById( 'test-el' );
+      
+      	// TEST - has it got the class?
+      	if ( classHelper.getClass( testEl, 'class-el' ) ) testEl.innerText = 'el testo has class class-el';
+  
+      // remove class
+      classHelper.removeClass( testEl, 'class-el' );
+      
+      	// TEST - has it got the class?
+      	if ( !classHelper.getClass( testEl, 'class-el' ) ) testEl.innerText = 'el testo DOES NOT has class class-el';
+  
+      // add class
+      classHelper.setClass( testEl, 'class-el-new' );
+      
+      	// TEST - has it got the class?
+      	if ( classHelper.getClass( testEl, 'class-el-new' ) ) testEl.innerText = 'el testo has class class-el-new';
+  
+  </script>
 
 
 ## License
