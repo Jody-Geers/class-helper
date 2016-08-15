@@ -9,10 +9,11 @@
     $ component install Jody-Geers/class-helper
 
 ## API
-
+  ```
   <!-- example ui -->
   <span class="class-el" id="test-el">Hello World, Here I AM...</span>
-  
+  ```
+  ```  
   <script>
   
       // the meat
@@ -37,7 +38,7 @@
       	if ( classHelper.getClass( testEl, 'class-el-new' ) ) testEl.innerText = 'el testo has class class-el-new';
   
   </script>
-
+  ```
 
 ## License
 
